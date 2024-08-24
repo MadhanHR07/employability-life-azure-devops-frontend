@@ -45,7 +45,7 @@ export default function Login({ setIsLogin }: LoginProps) {
     const password = data.get("password");
 
     try {
-      const response = await fetch("http://localhost:4000/auth/login/", {
+      const response = await fetch("http://98.70.77.0:4000/auth/login/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
